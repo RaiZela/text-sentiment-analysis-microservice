@@ -119,7 +119,7 @@ This is a backend-only service.
 
 No frontend/UI is included at this stage.
 
-Optional improvements:
+## Optional improvements:
 
 Aggregate sentiment summary.
 
