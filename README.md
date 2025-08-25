@@ -63,24 +63,23 @@ A simple backend service in C# that performs **sentiment analysis** on multiple 
 ## 🔹 Getting Started
 1. Create Azure Text Analytics Resource
 
-Go to the Azure Portal
-.
+- Go to the Azure Portal
 
-Click Create a resource → search for Language / Azure AI Language.
+- Click Create a resource → search for Language / Azure AI Language.
 
-Fill in the required details (Subscription, Resource Group, Name, Region, Pricing Tier).
+- Fill in the required details (Subscription, Resource Group, Name, Region, Pricing Tier).
 
-Click Review + Create → then Create.
+- Click Review + Create → then Create.
 
 2. Get Endpoint and API Key
 
-Go to your resource → Keys and Endpoint.
+- Go to your resource → Keys and Endpoint.
 
-Copy Key1 and Endpoint URL.
+- Copy Key1 and Endpoint URL.
 
 3. Configure in Your Project
 
-Add the values in appsettings.json:
+- Add the values in appsettings.json:
 
 ```json
 {
@@ -93,7 +92,7 @@ Add the values in appsettings.json:
 
 ##🔹 Using Dependency Injection
 
-Register TextAnalyticsClient in Program.cs:
+- Register TextAnalyticsClient in Program.cs:
 
 ```csharp
 using Azure;
@@ -115,14 +114,14 @@ app.Run();
 
 ## 🔹 Notes
 
-This is a backend-only service.
+- This is a backend-only service.
 
-No frontend/UI is included at this stage.
+- No frontend/UI is included at this stage.
 
 ## Optional improvements:
 
-Aggregate sentiment summary.
+- Aggregate sentiment summary.
 
-Filtering by user or date.
+- Filtering by user or date.
 
-Add unit tests or logging.
+- Add unit tests or logging.
